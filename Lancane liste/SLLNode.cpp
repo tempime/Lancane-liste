@@ -9,6 +9,7 @@ SLLNode::SLLNode()
 SLLNode::SLLNode(int el)
 {
 	info = el;
+	next = nullptr;
 }
 
 
